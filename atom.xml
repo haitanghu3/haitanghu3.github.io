@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://godweiyang.com/"/>
-  <updated>2022-06-25T16:17:00.192Z</updated>
+  <updated>2022-06-28T09:11:12.208Z</updated>
   <id>https://godweiyang.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>从头重学springboot</title>
+    <link href="https://godweiyang.com/2022/06/28/springboot2day1/"/>
+    <id>https://godweiyang.com/2022/06/28/springboot2day1/</id>
+    <published>2022-06-28T09:03:40.930Z</published>
+    <updated>2022-06-28T09:11:12.208Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;SpringBoot2-配置文件&quot;&gt;&lt;a href=&quot;#SpringBoot2-配置文件&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot2 - 配置文件&quot;&gt;&lt;/a&gt;SpringBoot2 -
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://godweiyang.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="博客" scheme="https://godweiyang.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>狐狸的一个脚印</title>
-    <link href="https://godweiyang.com/2021/12/16/5w2h-godweiyang/"/>
-    <id>https://godweiyang.com/2021/12/16/5w2h-godweiyang/</id>
-    <published>2021-12-15T16:16:31.000Z</published>
-    <updated>2022-06-25T16:17:00.192Z</updated>
+    <link href="https://godweiyang.com/2022/06/25/5w2h-godweiyang/"/>
+    <id>https://godweiyang.com/2022/06/25/5w2h-godweiyang/</id>
+    <published>2022-06-25T14:42:18.495Z</published>
+    <updated>2022-06-28T09:05:17.340Z</updated>
     
     <summary type="html">
     
