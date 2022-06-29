@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>day2_web开发</title>
+      <link href="/2022/06/29/springboot2-day2/"/>
+      <url>/2022/06/29/springboot2-day2/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>​    尝试坚持每天学一点中~</p></blockquote><h1 id="Web开发"><a href="#Web开发" class="headerlink" title="Web开发"></a>Web开发</h1><p><strong>1. 静态资源的配置</strong></p><ul><li><p>只要把静态资源文件放在<code>/ststic</code>(or <code>/public</code> or <code>/resource</code>or <code>/META-INF/RESOURCE</code>)的路径下，在web端就可以直接利用url访问到 (在相同的地址情况下先看是不是controller接口，不是则会访问静态资源)</p></li><li><p>为了防止拦截器在拦截/**时把静态资源也拦下，可以在yml中配置</p><pre class="line-numbers language-yml"><code class="language-yml">spring:  mvc:    static-path-pattern: /res/** #(此处res为自定任选)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>这样人为配置的静态资源的访问前缀</p></li><li><p>如果要手动指定静态资源的查找位置而舍弃默认路径，可以配置yml</p><pre class="line-numbers language-yml"><code class="language-yml">spring:    web:    resources:      static-locations: [classpath:/haha/] #此处里面写上自定路径比如/haha,方框表示可以有多个形成数组<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li></ul><p><strong>2. 欢迎页和小图标</strong></p><ul><li>在静态资源文件夹中如果检查到 index.html 文件，这个文件会被作为欢迎页<del>（为什么后端要干前端的活啊）</del>（设置欢迎页和自定义静态资源前缀这两个功能在底层逻辑上相矛盾，只能同时实现一个）</li><li>在静态资源文件夹中如果检查到 favicon.ico 文件，这个文件会被作为小图标(这也和自定义前缀相矛盾)</li></ul><hr><p><em>之后跟着教程读了半天源码，好困，今天早点睡吧，oysm~</em></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> java </tag>
+            
+            <tag> springboot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>springboot重学day1</title>
       <link href="/2022/06/29/springboot2-day1/"/>
       <url>/2022/06/29/springboot2-day1/</url>
