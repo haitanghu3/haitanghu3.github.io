@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://godweiyang.com/2022/06/29/springboot2-day1/</loc>
+    
+    <lastmod>2022-06-29T10:55:51.122Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://godweiyang.com/contact/index.html</loc>
     
     <lastmod>2022-06-28T15:29:17.981Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://godweiyang.com/friends/index.html</loc>
     
     <lastmod>2022-06-28T15:23:25.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://godweiyang.com/2022/06/28/springboot2day1/</loc>
-    
-    <lastmod>2022-06-28T09:11:12.208Z</lastmod>
     
   </url>
   

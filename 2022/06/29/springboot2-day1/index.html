@@ -4,19 +4,18 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="从头重学springboot, 狐狸 狐狸 狐狸">
+    <meta name="keywords" content="springboot重学day1, 狐狸 狐狸 狐狸">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
-    <meta name="description" content="SpringBoot2 - 配置文件yml语句的使用规则
+    <meta name="description" content="
+​    由于最近难得有了相对空闲的暑假 小学期时间，决定重新重头学一遍springboot，把自己本来学的半懂不懂的东西彻底搞明白
+
+SpringBoot2 - 配置文件yml语句的使用规则
 
 使用缩进代表层级关系
-记得内容前要加空格
-列表表示法
 
-[阿猫，阿狗]
-每个成员换行，且之前加上“- ”
-如果成员也为多数据结构(对象)则使用{english:80,math:90">
+记得内容前要加空格">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -24,7 +23,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>从头重学springboot | 狐狸の小窝</title>
+    <title>springboot重学day1 | 狐狸の小窝</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -337,13 +336,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        从头重学springboot
+                        springboot重学day1
                     </div>
                 </div>
             </div>
@@ -454,8 +453,16 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/博客/" target="_blank">
-                            <span class="chip bg-color">博客</span>
+                        <a href="/tags/学习/" target="_blank">
+                            <span class="chip bg-color">学习</span>
+                        </a>
+                        
+                        <a href="/tags/java/" target="_blank">
+                            <span class="chip bg-color">java</span>
+                        </a>
+                        
+                        <a href="/tags/springboot/" target="_blank">
+                            <span class="chip bg-color">springboot</span>
                         </a>
                         
                     </div>
@@ -466,8 +473,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/随笔/" class="post-category" target="_blank">
-                            随笔
+                        <a href="/categories/笔记/" class="post-category" target="_blank">
+                            笔记
                         </a>
                         
                     </div>
@@ -478,7 +485,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-06-28
+                    2022-06-29
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -492,14 +499,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    442
+                    690
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
                 
@@ -510,23 +517,33 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="SpringBoot2-配置文件"><a href="#SpringBoot2-配置文件" class="headerlink" title="SpringBoot2 - 配置文件"></a>SpringBoot2 - 配置文件</h3><p><strong>yml语句的使用规则</strong></p>
+                <blockquote>
+<p>​    由于最近难得有了相对空闲的暑假 <del>小学期</del>时间，决定重新重头学一遍springboot，把自己本来学的半懂不懂的东西彻底搞明白</p>
+</blockquote>
+<h3 id="SpringBoot2-配置文件"><a href="#SpringBoot2-配置文件" class="headerlink" title="SpringBoot2 - 配置文件"></a>SpringBoot2 - 配置文件</h3><p><strong>yml语句的使用规则</strong></p>
 <ul>
-<li>使用缩进代表层级关系</li>
-<li>记得内容前要加空格</li>
-<li>列表表示法<ul>
-<li><ol>
-<li>[阿猫，阿狗]</li>
-<li>每个成员换行，且之前加上“- ”</li>
-<li>如果成员也为多数据结构(对象)则使用{english:80,math:90}这样的json写法（还是记得加空格吧）</li>
-<li>对象也可以首个属性前加“- ”，后续属性换行并列但不加</li>
+<li><p>使用缩进代表层级关系</p>
+</li>
+<li><p>记得内容前要加空格</p>
+</li>
+<li><p>列表表示法</p>
+<ol>
+<li><p>[阿猫，阿狗]</p>
+</li>
+<li><p>每个成员换行，且之前加上“- ”</p>
+</li>
+<li><p>如果成员也为多数据结构(对象)则使用{english:80,math:90}这样的json写法（还是记得加空格吧）</p>
+</li>
+<li><p>对象也可以首个属性前加“- ”，后续属性换行并列但不加</p>
+</li>
 </ol>
 </li>
-</ul>
+<li><p>要用@ConfigurationProperties(prefix = “XXX”)来把某个类和配置文件里绑定</p>
 </li>
-<li>要用@ConfigurationProperties(prefix = “XXX”)来把某个类和配置文件里绑定</li>
-<li>代表字符串时，加不加单/双引号都是一样的结果</li>
-<li>配置同一个对象时，优先级 properties &gt; yml &gt;yaml</li>
+<li><p>代表字符串时，加不加单/双引号都是一样的结果</p>
+</li>
+<li><p>配置同一个对象时，优先级 properties &gt; yml &gt;yaml</p>
+</li>
 </ul>
 <p><strong>（一个疑似和标题无关的事情）</strong></p>
 <p>貌似在entity中某类的对象上加上<strong>@Data</strong>好像就包含了所有getter、setter、args等构造函数</p>
@@ -567,6 +584,26 @@
        <span class="token key atrule">weight</span><span class="token punctuation">:</span> <span class="token number">77.77</span>
     <span class="token key atrule">health</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token key atrule">name</span><span class="token punctuation">:</span> 阿花<span class="token punctuation">,</span> <span class="token key atrule">weight</span><span class="token punctuation">:</span> <span class="token number">199.99</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token key atrule">name</span><span class="token punctuation">:</span> 阿明<span class="token punctuation">,</span> <span class="token key atrule">weight</span><span class="token punctuation">:</span> <span class="token number">199.99</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>（为了展示多种格式可以混用以上可能看起来并不整齐，实际操作时可以选择一种以统一格式）</p>
+<hr>
+<p><del>睡前再更新一条</del></p>
+<p>为了方便在写yml时可以像自带的配置一样能自动弹出提示，可以在pom.xml中添加以下依赖</p>
+<pre class="line-numbers language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-configration-processor<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>optional</span><span class="token punctuation">></span></span>true<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optional</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><del>(记得写完依赖重启项目)</del></p>
+<p><del>(另外这样的自动配置会把驼峰形写成蛇形)</del></p>
+<p>但是由于以上功能在打包时并不需要使用，为了防止打包时要加载的东西太多，可以在打包相关的配置<code>&lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;</code>下添加以下配置：</p>
+<pre class="line-numbers language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>configuration</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>excludes</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>exclude</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-configuationprocessor<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>exclude</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>excludes</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>configuration</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>这样打包的时候这部分就可以被忽略啦~</p>
 
             </div>
             <hr />
@@ -601,9 +638,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《从头重学springboot》
+                    《springboot重学day1》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2022/06/28/springboot2day1/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2022/06/29/springboot2-day1/" property="cc:attributionName"
                rel="cc:attributionURL">
                 狐狸狐涂
             </a> 采用
@@ -648,39 +685,38 @@
                 <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2022/06/28/springboot2day1/">
+                <a href="/2022/06/29/springboot2-day1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="从头重学springboot">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="springboot重学day1">
                         
-                        <span class="card-title">从头重学springboot</span>
+                        <span class="card-title">springboot重学day1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            SpringBoot2 - 配置文件yml语句的使用规则
+                            
+​    由于最近难得有了相对空闲的暑假 小学期时间，决定重新重头学一遍springboot，把自己本来学的半懂不懂的东西彻底搞明白
+
+SpringBoot2 - 配置文件yml语句的使用规则
 
 使用缩进代表层级关系
-记得内容前要加空格
-列表表示法
 
-[阿猫，阿狗]
-每个成员换行，且之前加上“- ”
-如果成员也为多数据结构(对象)则使用{english:80,math:90
+记得内容前要加空格
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-28
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-29
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
+                            <a href="/categories/笔记/" class="post-category" target="_blank">
+                                    笔记
                                 </a>
                             
                             
@@ -691,8 +727,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/博客/" target="_blank">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/学习/" target="_blank">
+                        <span class="chip bg-color">学习</span>
+                    </a>
+                    
+                    <a href="/tags/java/" target="_blank">
+                        <span class="chip bg-color">java</span>
+                    </a>
+                    
+                    <a href="/tags/springboot/" target="_blank">
+                        <span class="chip bg-color">springboot</span>
                     </a>
                     
                 </div>
@@ -706,39 +750,38 @@
                 本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/28/springboot2day1/">
+                <a href="/2022/06/29/springboot2-day1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="从头重学springboot">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="springboot重学day1">
                         
-                        <span class="card-title">从头重学springboot</span>
+                        <span class="card-title">springboot重学day1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            SpringBoot2 - 配置文件yml语句的使用规则
+                            
+​    由于最近难得有了相对空闲的暑假 小学期时间，决定重新重头学一遍springboot，把自己本来学的半懂不懂的东西彻底搞明白
+
+SpringBoot2 - 配置文件yml语句的使用规则
 
 使用缩进代表层级关系
-记得内容前要加空格
-列表表示法
 
-[阿猫，阿狗]
-每个成员换行，且之前加上“- ”
-如果成员也为多数据结构(对象)则使用{english:80,math:90
+记得内容前要加空格
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-28
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-29
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
+                            <a href="/categories/笔记/" class="post-category" target="_blank">
+                                    笔记
                                 </a>
                             
                             
@@ -749,8 +792,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/博客/" target="_blank">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/学习/" target="_blank">
+                        <span class="chip bg-color">学习</span>
+                    </a>
+                    
+                    <a href="/tags/java/" target="_blank">
+                        <span class="chip bg-color">java</span>
+                    </a>
+                    
+                    <a href="/tags/springboot/" target="_blank">
+                        <span class="chip bg-color">springboot</span>
                     </a>
                     
                 </div>
@@ -924,7 +975,7 @@
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">442</span>
+            <span class="white-color">690</span>
             
 
             <br>

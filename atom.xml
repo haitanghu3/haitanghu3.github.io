@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://godweiyang.com/"/>
-  <updated>2022-06-28T09:11:12.208Z</updated>
+  <updated>2022-06-29T10:55:51.122Z</updated>
   <id>https://godweiyang.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>从头重学springboot</title>
-    <link href="https://godweiyang.com/2022/06/28/springboot2day1/"/>
-    <id>https://godweiyang.com/2022/06/28/springboot2day1/</id>
-    <published>2022-06-28T09:03:40.930Z</published>
-    <updated>2022-06-28T09:11:12.208Z</updated>
+    <title>springboot重学day1</title>
+    <link href="https://godweiyang.com/2022/06/29/springboot2-day1/"/>
+    <id>https://godweiyang.com/2022/06/29/springboot2-day1/</id>
+    <published>2022-06-29T10:54:31.000Z</published>
+    <updated>2022-06-29T10:55:51.122Z</updated>
     
     <summary type="html">
     
@@ -29,16 +29,23 @@
       
         
         
-          &lt;h3 id=&quot;SpringBoot2-配置文件&quot;&gt;&lt;a href=&quot;#SpringBoot2-配置文件&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot2 - 配置文件&quot;&gt;&lt;/a&gt;SpringBoot2 -
+          &lt;blockquote&gt;
+&lt;p&gt;​    由于最近难得有了相对空闲的暑假 &lt;del&gt;小学期&lt;/del&gt;时间，决定重新重头学一遍springboot，把自己本来学的半懂不懂的东西彻底搞明白&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3
         
       
     
     </summary>
     
-      <category term="随笔" scheme="https://godweiyang.com/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="博客" scheme="https://godweiyang.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="springboot" scheme="https://godweiyang.com/tags/springboot/"/>
     
   </entry>
   
