@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://godweiyang.com/"/>
-  <updated>2022-06-29T14:14:47.246Z</updated>
+  <updated>2022-07-29T15:35:21.963Z</updated>
   <id>https://godweiyang.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>准大二暑假前半部分的项目收获</title>
+    <link href="https://godweiyang.com/2022/07/29/summerholidayworkin2022/"/>
+    <id>https://godweiyang.com/2022/07/29/summerholidayworkin2022/</id>
+    <published>2022-07-29T08:29:31.000Z</published>
+    <updated>2022-07-29T15:35:21.963Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;这个暑假有幸能够作为一个学徒参与了某个与实际公司合作的项目的开发。虽然只负责了其中对于微信二维码支付部分的封装，其中大部分的内容实际上是对官方提供的sdk工具的开盖即食，但由于自己基础知识薄弱，开发经验缺少，导致这么一项简单的任务前前后后也花费了十
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="实践" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="springboot" scheme="https://godweiyang.com/tags/springboot/"/>
+    
+  </entry>
   
   <entry>
     <title>day2_web开发</title>
