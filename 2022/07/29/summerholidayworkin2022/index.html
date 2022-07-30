@@ -330,7 +330,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -520,7 +520,7 @@
 </blockquote>
 <h2 id="某只狐狸第一次完成的商业项目实践记录"><a href="#某只狐狸第一次完成的商业项目实践记录" class="headerlink" title="某只狐狸第一次完成的商业项目实践记录"></a>某只狐狸第一次完成的商业项目实践记录</h2><h4 id="第一部分：结构设计"><a href="#第一部分：结构设计" class="headerlink" title="第一部分：结构设计"></a>第一部分：结构设计</h4><p><em>之前由于在六月份一个比赛项目制作文档的时候掌握了一点制作流程图的能力，没想到很快就派上用场了</em>。</p>
 <p>在开始动工项目之前，先理解需求并绘制代码结构组成的流程图带来的帮助比我想象中要大。在实际操作中，有了流程图之后在编写代码时就是“照着图写”，而很少出现一时中断而要花费较长时间重新整理思路的情况。本次项目中最后的设计流程图如下：</p>
-<p><img src="/2022/07/29/summerholidayworkin2022/....%5Cthemes%5Cmatery%5Csource%5Cmedias%5Cmaterial%5C220729LCT_Part1.png" alt="220729LCT_Part1"><br><img src="/2022/07/29/summerholidayworkin2022/....%5Cthemes%5Cmatery%5Csource%5Cmedias%5Cmaterial%5C220729LTC_Part3.png" alt="220729LTC_Part2"><br>（事实上由于后期前端那边提出了回调的要求，导致以上的图并不代表最终结果，但差别不大)</p>
+<p><img src="/2022/07/29/summerholidayworkin2022/220729LCT_Part1.png" alt="主体流程图"><br><img src="/2022/07/29/summerholidayworkin2022/220729LTC_Part3.png" alt="轮询流程图"><br>（事实上由于后期前端那边提出了回调的要求，导致以上的图并不代表最终结果，但差别不大)</p>
 <h4 id="第二部分：把API封装入util"><a href="#第二部分：把API封装入util" class="headerlink" title="第二部分：把API封装入util"></a>第二部分：把API封装入util</h4><p><em>本来此处还要利用feign或http的方式自行把接口地址写一套封装，但最后发现微信提供的sdk已经完成了这一项工作，所以这部分算是逃课了，之后有机会再去研究一下sdk里基于http的封装方式吧。</em></p>
 <p>这一步主要流程就是写一套util方法，接收api所需要的参数，调用sdk已经封装好的接口地址访问方法，使用参数进行访问，并把所得的返回结果封装入bean。一下以其中一个较为经典的案例作为代表。</p>
 <pre class="line-numbers language-java"><code class="language-java">    <span class="token keyword">public</span> <span class="token keyword">static</span> WXmicroPayResultBean <span class="token function">wxMicroPay</span><span class="token punctuation">(</span>String body<span class="token punctuation">,</span>
@@ -591,7 +591,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>这样的配置方法有一些使用要点，网络上有相关的整理，截图如下：</p>
-<p><img src="/2022/07/29/summerholidayworkin2022/../themes/matery/source/medias/material/220729Async.png" alt="220729Async"></p>
+<p><img src="/2022/07/29/summerholidayworkin2022/220729Async.png" alt="失效场景"></p>
 <p>对于其中第三点，在同一个类中，一个非异步方法调用另一个异步方法的问题，可以利用代理类的方法解决。本次项目中就出现了一个非异步的service要调用另一个异步service的情况，解决代码如下：</p>
 <pre class="line-numbers language-java"><code class="language-java">MDealRecordService mDRSProxy <span class="token operator">=</span> <span class="token punctuation">(</span>MDealRecordService<span class="token punctuation">)</span> AopContext<span class="token punctuation">.</span><span class="token function">currentProxy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 mDRSProxy<span class="token punctuation">.</span><span class="token function">wxLoopTask</span><span class="token punctuation">(</span>out_trade_no<span class="token punctuation">,</span>dealRecord<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
@@ -709,35 +709,63 @@ mDRSProxy<span class="token punctuation">.</span><span class="token function">wx
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/07/29/first-page/">
+                <a href="/2022/07/29/summerholidayworkin2022/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="first_page">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="准大二暑假前半部分的项目收获">
                         
-                        <span class="card-title">first_page</span>
+                        <span class="card-title">准大二暑假前半部分的项目收获</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            博客图片上传尝试图片如下
-
-
+                            
+这个暑假有幸能够作为一个学徒参与了某个与实际公司合作的项目的开发。虽然只负责了其中对于微信二维码支付部分的封装，其中大部分的内容实际上是对官方提供的sdk工具的开盖即食，但由于自己基础知识薄弱，开发经验缺少，导致这么一项简单的任务前前后后
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2022-07-29
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-07-29
+                            </span>
                         <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/笔记/" class="post-category" target="_blank">
+                                    笔记
+                                </a>
+                            
+                            <a href="/categories/笔记/实践/" class="post-category" target="_blank">
+                                    实践
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/学习/" target="_blank">
+                        <span class="chip bg-color">学习</span>
+                    </a>
+                    
+                    <a href="/tags/java/" target="_blank">
+                        <span class="chip bg-color">java</span>
+                    </a>
+                    
+                    <a href="/tags/springboot/" target="_blank">
+                        <span class="chip bg-color">springboot</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -753,7 +781,7 @@ mDRSProxy<span class="token punctuation">.</span><span class="token function">wx
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="day2_web开发">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="day2_web开发">
                         
                         <span class="card-title">day2_web开发</span>
                     </div>
