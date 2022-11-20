@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>狐狸の小窝</title>
+  
+  <subtitle>浮生过客如云</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://godweiyang.com/"/>
+  <updated>2022-11-20T06:44:37.880Z</updated>
+  <id>https://godweiyang.com/</id>
+  
+  <author>
+    <name>狐狸狐涂</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker配置redis时的收获</title>
+    <link href="https://godweiyang.com/2022/11/19/docker-pei-zhi-redis-shi-de-shou-huo/"/>
+    <id>https://godweiyang.com/2022/11/19/docker-pei-zhi-redis-shi-de-shou-huo/</id>
+    <published>2022-11-19T14:07:49.000Z</published>
+    <updated>2022-11-20T06:44:37.880Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;以下均为没有依据的个人理解，仅是帮忙整理个人当前认知用，不出意外大概是漏洞百出，所以如果有其他人看见这篇文章的话当乐子看就行，防止误人子弟&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一开始的操作是拉取了一个别人配置好的较为纯净（阉割）版的ubunt
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Redis学习</title>
+    <link href="https://godweiyang.com/2022/10/19/redis-xue-xi/"/>
+    <id>https://godweiyang.com/2022/10/19/redis-xue-xi/</id>
+    <published>2022-10-19T11:11:25.000Z</published>
+    <updated>2022-10-19T12:56:46.728Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Redis学习&quot;&gt;&lt;a href=&quot;#Redis学习&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>springCloud学习</title>
+    <link href="https://godweiyang.com/2022/09/26/springcloud-xue-xi/"/>
+    <id>https://godweiyang.com/2022/09/26/springcloud-xue-xi/</id>
+    <published>2022-09-26T09:58:26.000Z</published>
+    <updated>2022-10-10T02:55:31.157Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;微服务的服务集群里的微服务互相调用时，可以用注册中心统一管理每个服务的ip、端口、功能等，在上面拉取就好&lt;/p&gt;
+&lt;p&gt;同理还有一个配置中心，统一管理配置的变更，实现配置的热更新&lt;/p&gt;
+&lt;p&gt;为了管理用户可以访问的微服务，还需要服务网关来校验用户身份、负载均衡，路由具体服
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计网概论阅读笔记</title>
+    <link href="https://godweiyang.com/2022/09/05/ji-wang-gai-lun-yue-du-bi-ji/"/>
+    <id>https://godweiyang.com/2022/09/05/ji-wang-gai-lun-yue-du-bi-ji/</id>
+    <published>2022-09-05T13:09:47.000Z</published>
+    <updated>2022-09-05T13:09:47.697Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>高并发学习</title>
+    <link href="https://godweiyang.com/2022/08/25/gao-bing-fa-xue-xi/"/>
+    <id>https://godweiyang.com/2022/08/25/gao-bing-fa-xue-xi/</id>
+    <published>2022-08-25T00:16:31.000Z</published>
+    <updated>2022-08-27T02:11:43.440Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;高并发学习笔记&quot;&gt;&lt;a href=&quot;#高并发学习笔记&quot; class=&quot;headerlink&quot; title=&quot;高并发学习笔记&quot;&gt;&lt;/a&gt;高并发学习笔记&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;出自b站马士兵的相关教程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="后端" scheme="https://godweiyang.com/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+      <category term="高并发" scheme="https://godweiyang.com/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCodeEveryDay</title>
+    <link href="https://godweiyang.com/2022/08/06/leetcodeeveryday/"/>
+    <id>https://godweiyang.com/2022/08/06/leetcodeeveryday/</id>
+    <published>2022-08-06T09:17:23.000Z</published>
+    <updated>2022-08-06T11:54:11.840Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;LeetCode每日任务（持续更新）&quot;&gt;&lt;a href=&quot;#LeetCode每日任务（持续更新）&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="leetcode" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/leetcode/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="算法" scheme="https://godweiyang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCodeDay1</title>
+    <link href="https://godweiyang.com/2022/08/05/leetcodeday1/"/>
+    <id>https://godweiyang.com/2022/08/05/leetcodeday1/</id>
+    <published>2022-08-05T01:13:34.000Z</published>
+    <updated>2022-08-05T15:14:46.342Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;初见LeetCode，题目整理&quot;&gt;&lt;a href=&quot;#初见LeetCode，题目整理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="leetcode" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/leetcode/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="算法" scheme="https://godweiyang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>准大二暑假前半部分的项目收获</title>
+    <link href="https://godweiyang.com/2022/07/29/summerholidayworkin2022/"/>
+    <id>https://godweiyang.com/2022/07/29/summerholidayworkin2022/</id>
+    <published>2022-07-29T08:29:31.000Z</published>
+    <updated>2022-07-30T02:32:58.014Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;这个暑假有幸能够作为一个学徒参与了某个与实际公司合作的项目的开发。虽然只负责了其中对于微信二维码支付部分的封装，其中大部分的内容实际上是对官方提供的sdk工具的开盖即食，但由于自己基础知识薄弱，开发经验缺少，导致这么一项简单的任务前前后后也花费了十
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="实践" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="springboot" scheme="https://godweiyang.com/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>day2_web开发</title>
+    <link href="https://godweiyang.com/2022/06/29/springboot2-day2/"/>
+    <id>https://godweiyang.com/2022/06/29/springboot2-day2/</id>
+    <published>2022-06-29T14:14:31.000Z</published>
+    <updated>2022-06-29T14:14:47.246Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;​    尝试坚持每天学一点中~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Web开发&quot;&gt;&lt;a href=&quot;#Web开发&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="springboot" scheme="https://godweiyang.com/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>springboot重学day1</title>
+    <link href="https://godweiyang.com/2022/06/29/springboot2-day1/"/>
+    <id>https://godweiyang.com/2022/06/29/springboot2-day1/</id>
+    <published>2022-06-29T10:54:31.000Z</published>
+    <updated>2022-06-29T10:55:51.122Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;​    由于最近难得有了相对空闲的暑假 &lt;del&gt;小学期&lt;/del&gt;时间，决定重新重头学一遍springboot，把自己本来学的半懂不懂的东西彻底搞明白&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://godweiyang.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="https://godweiyang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="java" scheme="https://godweiyang.com/tags/java/"/>
+    
+      <category term="springboot" scheme="https://godweiyang.com/tags/springboot/"/>
+    
+  </entry>
+  
+</feed>
